@@ -23,11 +23,19 @@ def fn1(x,y):
 
   return x+y # initial condition
 
-plot(b,d,C,t,x1,y1,x2,y2,fn=fn1, show_solution=True) # b, d are boundary conditions (for more information look into References
+plot(b,d,C,t,x1,y1,x2,y2,fn=fn1, show_solution=True) # b, d are boundary conditions (for more information look up References)
 ```
 
 # References
 
+http://ramanujan.math.trinity.edu/rdaileda/teach/s12/m3357/lectures/lecture_3_6_short.pdf
 
+https://plot.ly/python/3d-surface-plots/
 
 # Requirements
+
+Plotly >= 4.4
+
+Numpy >= 1.10
+
+Python >= 3.6
