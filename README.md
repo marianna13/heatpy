@@ -10,6 +10,16 @@ You can specify dimensions of the square, boundary conditions and time intervals
 ```
 pip install heatpy
 ```
+# Tutorial
+```python
+from heatpy import plot
+
+def fn1(x,y):
+
+  return x+y # initial condition
+
+plot(b,d,C,t,x1,y1,x2,y2,fn=fn1, show_solution=True) # b, d are boundary conditions (for more information look into References
+```
 
 # References
 
