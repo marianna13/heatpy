@@ -1,4 +1,4 @@
-# HeatSim
+# HeatPy
 This package helps you solve time-dependent heat equation for any 2d square, at any given time and plots found solutions as 3d surface.
 
 It produces solutions by separating variables, finding simple solutions and after that compining them in one final solution that would satisfy boundary conditions.
@@ -11,6 +11,11 @@ You can specify dimensions of the square, boundary conditions and time intervals
 pip install heatpy
 ```
 # Tutorial
+C is a thermal diffusivity,
+t is time
+x2-x1 is size of a square in X direction,
+y2-y1 is size of the square in Y direction
+
 ```python
 from heatpy import plot
 
