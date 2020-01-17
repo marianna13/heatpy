@@ -6,7 +6,10 @@ It produces solutions by separating variables, finding simple solutions and afte
 Integration is being done by Simpson's rule for numerical integration
 
 You can specify dimensions of the square, boundary conditions and time intervals.
-
+# Installation
+```
+pip install heatpy
+```
 
 # References
 
