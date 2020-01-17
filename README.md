@@ -12,7 +12,7 @@ pip install heatpy
 ```
 # Tutorial
 C is a thermal diffusivity,
-t is time
+t is time,
 x2-x1 is size of a square in X direction,
 y2-y1 is size of the square in Y direction
 
